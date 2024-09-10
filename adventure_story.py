@@ -21,8 +21,7 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
-hero_name = input(' what\'s your hero\'s name')
-setting = input(' where does the story take places')
-object = input(' what dose the hero find to save the places')
-story = ' there was a hero named' + {hero_name} + "." + ' the hero proticted' + {setting} + " and then the hero had to find" + {object} + "."
-print(story)
+hero_name = input(' what\'s your hero\'s name:')
+setting = input(' where does the story take places:')
+object = input(' what dose the hero find to save the places:')
+print(f'there was a hero named {hero_name} the hero proticted {setting} and then the hero had to find {object} to save the day. ')
